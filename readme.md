@@ -14,12 +14,12 @@ This is the first iteration of Direct debit. It needs a lot of testing and re-it
 
 **Own Action**
 
-1. Subscribe to an account.
-2. Unsubscribe from an account.
+1. Subscribe to an account/business/charity.
+2. Unsubscribe from an account/business/charity.
 
 **Anybody**
 
-3. Direct debt from your account to the subscribed account/business.
+3. Direct debt from your account to the subscribed account/business/charity.
 
 ### Installing the Hook on your account
 
