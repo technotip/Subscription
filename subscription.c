@@ -53,9 +53,7 @@ uint8_t current_month = 0;\
     int64_t y = (int64_t)(yoe) + era * 400;\
     uint64_t doy = doe - (365*yoe + yoe/4 - yoe/100);\
     uint64_t mp = (5*doy + 2)/153;\
-    uint64_t d = doy - (153*mp+2)/5 + 1;\
     uint64_t m = mp + (mp < 10 ? 3 : -9);\
-    y += (m <= 2);\
     current_month = m;\
 }
 
