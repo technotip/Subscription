@@ -77,7 +77,8 @@ main();
                 HookNamespace: "92F089F2A70DF5D960AAC7C83DAC8BC454C2CB1FA9A8E3061A8F6A84F338F2D1"
             }
         }
-    ]
+    ],
+    ...networkInfo.txValues
 }
 ```
 
