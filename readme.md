@@ -59,6 +59,28 @@ export async function main(): Promise<void> {
 main();
 ```
 
+### Hook Install, using HookHash
+
+(The hookhash is on Xahau Test network - links above)
+
+```
+{
+    Account: your.raddress,
+    TransactionType: "SetHook",
+    Fee: "2000000",
+    Hooks:
+    [
+        {
+            Hook: {
+                HookHash: "A83FC2584598E08075B3476A323E54451D6EDD2157B5BFFE1F13C4C69486441A",
+                HookOn: "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7FFFFFFFFFFFFFFFFFFBFFFFF",
+                HookNamespace: "92F089F2A70DF5D960AAC7C83DAC8BC454C2CB1FA9A8E3061A8F6A84F338F2D1"
+            }
+        }
+    ]
+}
+```
+
 ### Transaction Parameter
 
 **B** or hex **42**: Business account ID - to subscribe. (20 byte account ID)
